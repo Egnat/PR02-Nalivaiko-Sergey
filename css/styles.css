@@ -1067,7 +1067,6 @@ line-height: 19px;
 color: #363636;
 }
 
-
 .black-square {
 display: flex;
 flex-direction: column;
@@ -1613,6 +1612,10 @@ height: 54px;
 border: 2px solid #E3B873;
 background: #E3B873;
 box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.small-square {
+position: relative;
 }
 
 .vertical {
