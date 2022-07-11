@@ -2126,7 +2126,7 @@ body { background: #9e9e9ea1; }
 
 .black-square2 { width: 1053px; }
 
-.footer-content { position: relative; }
+.footer-content { position: relative; right: 15px;}
 }
 
 @media screen and (min-width: 1024px) {
@@ -2157,7 +2157,7 @@ body { background: #9e9e9ea1; }
 
 .black-square2 { width: 1053px; }
 
-.footer-content { position: relative; }
+.footer-content { position: relative; right: 15px;}
 }
 
 @media screen and (min-width: 1440px) {
@@ -2213,7 +2213,7 @@ body { background: #9e9e9ea1; }
 
 .img2 { width: 1048px; }
 
-.footer-content {position: relative; }
+.footer-content {position: relative; right: 13px;}
 
 .button-footer { right: 29px; }
 
