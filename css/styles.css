@@ -113,6 +113,12 @@ height: 5px;
 left: 95px;
 background: wheat;
 }
+
+.wrapper {
+position: relative;
+width: max-content;
+height: auto;
+}
    
 .room {
 position: relative;
@@ -238,13 +244,6 @@ font-weight: 400;
 font-size: 11px;
 line-height: 15px;
 color: white;
-}
-
-.wrapper {
-position: relative;
-width: max-content;
-height: auto;
-right: 152p;
 }
 
 .group-1 {
