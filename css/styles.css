@@ -2101,6 +2101,8 @@ color: white;
 
 body { background: #9e9e9ea1; }
 
+.header {  }
+
 .button-header { right: 67px; }
 
 .logo { left: 55px; }
@@ -2131,6 +2133,8 @@ body { background: #9e9e9ea1; }
 @media screen and (min-width: 1024px) {
 
 body { background: #9e9e9ea1; }
+
+.header {  }
 
 .button-header { right: 67px; }
 
@@ -2163,6 +2167,8 @@ body { background: #9e9e9ea1; }
 
 body { background: #9e9e9ea1; }
 
+.header {  }
+
 .button-header { right: 67px; }
 
 .logo { left: 55px; }
@@ -2191,6 +2197,14 @@ body { background: #9e9e9ea1; }
 }
 
 @media screen and (min-width: 1600px) {
+
+.header { width: 1289px; }
+
+.filter-image { width: 1289px; }
+
+.image {width: 1289px; }
+
+.group-1 { width: 1289px; }
 
 .container-text-group-1 { left: 68px; }
 
