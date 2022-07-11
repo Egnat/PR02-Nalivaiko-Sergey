@@ -2101,7 +2101,7 @@ color: white;
 
 body { background: #9e9e9ea1; }
 
-.header {  }
+.header {width: 1289px;  }
 
 .button-header { right: 67px; }
 
@@ -2134,7 +2134,7 @@ body { background: #9e9e9ea1; }
 
 body { background: #9e9e9ea1; }
 
-.header {  }
+.header { width: 1289px; }
 
 .button-header { right: 67px; }
 
