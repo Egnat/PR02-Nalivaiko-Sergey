@@ -10,7 +10,7 @@ box-sizing: border-box;
 } 
 
 .header {
-width: 1053px;
+width: 1920px;
 background: black;   
 }
     
@@ -2101,7 +2101,7 @@ color: white;
 
 body { background: #9e9e9ea1; }
 
-.header {width: 1920px;  }
+.header {width: 1920p;  }
 
 .button-header { right: 67px; }
 
