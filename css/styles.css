@@ -2132,7 +2132,7 @@ background: wheat;
 
 @media screen and (max-width: 1300px) {
 
-html { width: 1300px; margin-left: 7px;}
+html { width: 1300px; margin-left: 7p;}
 
 body {width: 1300px; background: #9e9e9e59;; }
 
