@@ -10,6 +10,7 @@ box-sizing: border-box;
 } 
 
 .header {
+width: 100%; 
 background: black;
 }
 
@@ -26,7 +27,7 @@ right: 9px;
 position: inherit;
 width: 175px;
 height: 44px;
-right: 50px;
+right: 35px;
 background: #e3b873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
 border-radius: 2px;
@@ -110,12 +111,11 @@ height: 6606.2px;
 
 .wrapper {
 height: 6606.2px;
-margin: 0 auto;
 }
 
 .room {
 position: relative;
-width: 100%;
+width: 100%; 
 height: 708px;
 bottom: 1px;
 }
@@ -127,7 +127,7 @@ filter: brightness(0.3);
 }
 
 .room-one-big-photo {
-width: 100%;
+width: 100%; 
 height: 707px;
 object-fit: fill; 
 object-position: center; 
@@ -236,6 +236,7 @@ border: 2px solid #2798f1;
 display: flex;
 justify-content: space-around;
 position: relative;
+width: 100%; 
 height: 999px;
 bottom: 3px;
 background: black;
@@ -515,6 +516,7 @@ transform: rotate(0deg);
 position: relative;
 display: flex;
 flex-direction: column;
+width: 100%; 
 height: 1408px;
 bottom: 391px;
 background: white;
@@ -974,6 +976,7 @@ color: #FFFFFF;
 
 .group3 {
 position: relative;
+width: 100%; 
 height: 2772px;
 bottom: 393px;
 background: white;
@@ -1327,7 +1330,7 @@ text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 
 .big-photo {
-width: 100%;
+width: 100%; 
 position: relative;
 height: 707px;
 bottom: 221px;
@@ -1340,7 +1343,7 @@ filter: brightness(0.2);
 }
 
 .room-big-photo {
-width: 100%;
+width: 100%; 
 height: 707px;
 object-fit: cover;
 object-position: center;
@@ -1696,8 +1699,7 @@ color: #FFFFFF;
 .buildings {
 position: relative;
 display: flex;
-align-items:baseline ;
-width: 100%;
+align-items:baseline; 
 height: 310px;
 top: 627px;
 opacity: 0.05;
@@ -1935,7 +1937,7 @@ color: white;
 position: relative;
 width: 100%; 
 height: 724.9px;
-bottom: 729px;
+bottom: 730px;
 background: black;
 }
 
@@ -2140,6 +2142,8 @@ body {width: 1300px; background: #9e9e9e59; }
 .header-menu { display: none; }
 
 .button-header { right: 56px; }
+
+.logo { left: 56px; }
 
 .telephone, .icon { left: 0px; }
 
