@@ -1934,37 +1934,40 @@ color: white;
 
 .black-square2 {
 position: relative;
-height: 724.9px;
+height: 840.9px;
 bottom: 730px;
 background: black;
 }
 
 .image2 {
-height: 724.9px;
+height: 840.9px;
 margin: 0 auto;
 filter: brightness(0.3);
 }
 
 .img2 {
 width: 100%; 
-height: 724.9px;
+height:  840.9px;
 object-fit: fill;
 }
 
 .rectangle2 {
-position: inherit;
-width: 85%;
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: baseline;
+width: 72%;
 height: 513px;
-bottom: 591px;
-left: 155px;
+bottom: 147px;
+left: 197px;
 }
 
 .mini-group-6 {
 display: flex;
 flex-direction: column;
 position: relative;
-top: 77px;
-right: 141px;
+top: 45px;
+right: 184px;
 }
 
 .h1-bl-sq2 {
@@ -2019,17 +2022,21 @@ left: 651px;
 background: #9e9e9e0d;
 }
 
-.navigator {
+navigator {
 position: absolute;
 width: 805px;
 height: 342px;
 top: 178px;
-left: 108px;
+left: 108px;   
+}
+
+#map {
+display: block;
 }
 
 .footer {
 position: relative;
-top: 0px;
+top: 116px;
 background: black;  
 }
 
