@@ -1466,6 +1466,7 @@ width: 34px;
 height: 28px;
 bottom: 567px;
 left: 680px;
+margin: 0;
 }
 
 .vector1 {
@@ -2149,6 +2150,6 @@ body {width: 1300px; background: #9e9e9e59; }
 
 .footer-menu { display: flex; }
 
-.button-footer { right: 24px; }
+.button-footer { right: 9px; }
 
 }
