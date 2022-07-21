@@ -473,12 +473,15 @@ position: relative;
 width: 740px;
 height: 389px;
 bottom: 197px;
-left: 291px;
+left: 293px;
+margin-block-start: 0;
+margin-block-end: 0;
+margin-inline-start: 0;
+margin-inline-end: 0;
 z-index: 1;
 }
 
 .filter-repair {
-margin: 0 ;
 filter: brightness(0.3);
 }
 
@@ -1062,7 +1065,8 @@ flex-direction: column;
 width: 442px;
 height: 454px;
 bottom: 448px;
-left: 771px;
+left: 369px;
+margin: 0 auto;
 background: black;
 }
 
@@ -1264,8 +1268,8 @@ position: relative;
 display: flex;
 width: 72px;
 height: 72px;
-bottom: 421px;
-left: 746px; 
+bottom: 438px;
+left: 779px;
 background: #FFFFFF;
 border: 0.1px solid #FFFFFF
 }
@@ -1605,6 +1609,7 @@ width: auto;
 height: auto;
 right: 53px;
 bottom: 742px;
+margin: 0 auto;
 }
 
 .but1 {
@@ -1614,7 +1619,7 @@ justify-content: space-between;
 align-items: center;
 width: 272px;
 height: 54px;
-left: 180px;
+left: 181px;
 border: 2px solid #E3B873;
 background: #E3B873;
 box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
@@ -1627,7 +1632,7 @@ justify-content: space-between;
 align-items: center;
 width: 272px;
 height: 54px;
-left: 32px;
+left: 31px;
 border: 2px solid #E3B873;
 background: #E3B873;
 box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
@@ -1640,7 +1645,7 @@ justify-content: space-between;
 align-items: center;
 width: 272px;
 height: 54px;
-right: 121px;
+right: 123px;
 border: 2px solid #E3B873;
 background: #E3B873;
 box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);  
@@ -1697,8 +1702,8 @@ color: #FFFFFF;
 position: relative;
 display: flex;
 align-items:baseline; 
-height: 310px;
-top: 627px;
+height: 320px;
+top: 626px;
 opacity: 0.05;
 }
 
@@ -1722,7 +1727,7 @@ position: relative;
 width: 675px;
 height: 336.32px;
 bottom: 571px;
-left: 311px;
+margin: 0 auto;
 z-index: 1;
 background: black;
 }
@@ -1828,7 +1833,7 @@ background-color: #2798f1;
 
 .phone2 {
 position: relative;
-width: 348.85px;
+width: 240.85px;
 height: 119px;
 bottom: 47px;
 left: 403px;
@@ -1934,20 +1939,20 @@ color: white;
 
 .black-square2 {
 position: relative;
-height: 840.9px;
+height: 867.9px;
 bottom: 730px;
 background: black;
 }
 
 .image2 {
-height: 840.9px;
+height: 867.9px;
 margin: 0 auto;
 filter: brightness(0.3);
 }
 
 .img2 {
 width: 100%; 
-height:  840.9px;
+height:  867.9px;
 object-fit: fill;
 }
 
@@ -1958,15 +1963,15 @@ flex-direction: column;
 align-items: baseline;
 width: 72%;
 height: 513px;
-bottom: 147px;
-left: 197px;
+bottom: 158px;
+left: 192px;
 }
 
 .mini-group-6 {
 display: flex;
 flex-direction: column;
 position: relative;
-top: 45px;
+top: 32px;
 right: 184px;
 }
 
@@ -1992,7 +1997,9 @@ position: relative;
 width: 28px;
 height: 28px;
 top: -13px;
-left: 574px;
+left: 602px;
+margin-inline-start: 0;
+margin-inline-end: 0;
 }
 
 .email {
@@ -2036,7 +2043,7 @@ display: block;
 
 .footer {
 position: relative;
-top: 116px;
+top: 143px;
 background: black;  
 }
 
