@@ -105,11 +105,11 @@ background: wheat;
 }
 
 .main {
-height: 6606.2px;
+height: 6750.2px;
 }
 
 .wrapper {
-height: 6606.2px;
+height: 6750.2px;
 }
 
 .room {
@@ -2043,7 +2043,7 @@ display: block;
 
 .footer {
 position: relative;
-top: 143px;
+top: -1px;
 background: black;  
 }
 
