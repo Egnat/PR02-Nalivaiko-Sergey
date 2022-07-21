@@ -218,14 +218,15 @@ color: white;
 color: #E3B873;
 }
 
-.span:hover, .mini-line:hover, .text-button_submit:hover,
-.text:hover, .span-span:hover, .text-name1:hover, .numbers:hover  {
+.span:hover, .mini-line:hover, .text-button_submit:hover, .text1:hover,
+.text:hover, .span-span:hover, .text-name1:hover, .numbers:hover,
+.text-question1:hover {
 border-bottom: 2px solid #2798f1;
 }
 
 #button1-container-text:hover, #button2-container-text:hover, .rub1:hover, 
 .rub2:hover, .rub3:hover, .button-header:hover, .submit:hover,
-.icon:hover, .line:hover, .border-2:hover, .button:hover, .line-big-photo:hover, 
+.icon:hover, .icon1:hover, .line:hover, .border-2:hover, .button:hover, .line-big-photo:hover, 
 .button-bl-r:hover, .button-footer:hover, .but1:hover, .but2:hover, .but3:hover {
 border: 2px solid #2798f1;
 }
@@ -279,7 +280,7 @@ padding-right: 59px;
 .line {
 position: relative;
 display: inline-block;
-width: 190px;
+width: 189px;
 height: 1px;
 bottom: 27px;
 color: #E3B873;
@@ -1764,7 +1765,7 @@ color: #FFFFFF;
 position: relative;
 width: 348.85px;
 height: 119px;
-top: 42px;
+top: 52px;
 left: 131px;
 cursor: pointer;
 }
@@ -1782,36 +1783,10 @@ line-height: 21px;
 color: rgba(255, 255, 255, 0.5);
 }
 
-.text-question {
-position: absolute;
-width: 124px;
-height: 23px;
-top: 17px;
-
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 23px;
-color: #FFFFFF;
-}
-
-.text-question:hover::after {
-width: 100%;  
-}
-
-.text-question::after {
-content: "";
-display: block;
-height: 2px;
-position: absolute;
-background: #2798f1;
-}
-
 .strip2  {
 width: 160px;
 height: 1px;
-top: 55px;
+top: 45px;
 box-sizing: border-box;
 position: absolute;
 border: 1px solid rgba(54, 54, 54, 0.3);
@@ -1821,14 +1796,14 @@ background: gba(255, 255, 255, 0.15);;
 .strip3 {
 width: 427px;
 height: 1px;
-top: 55px;
+top: 45px;
 box-sizing: border-box;
 position: absolute;
 border: 1px solid rgba(54, 54, 54, 0.3);
 background: gba(255, 255, 255, 0.15);;
 }  
 
-.strip2:hover, strip3:hover {
+.strip2:hover, .strip3:hover {
 background-color: #2798f1;
 }
 
@@ -1836,18 +1811,17 @@ background-color: #2798f1;
 position: relative;
 width: 240.85px;
 height: 119px;
-bottom: 47px;
+bottom: 40px;
 left: 403px;
 cursor: pointer;   
 }
 
-.question {
+.input {
 position: relative;
 width: 348.85px;
 height: 119px;
-bottom: 74px;
+bottom: 56px;
 left: 131px;
-cursor: pointer;   
 }   
 
 .text-question1 {
@@ -1855,13 +1829,15 @@ position: absolute;
 width: 124px;
 height: 23px;
 top: 17px;
+border: none;
+outline: none;
+background: transparent;
 
 font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 23px;
-color: #FFFFFF;
 }
 
 .text-question1:hover::after {
