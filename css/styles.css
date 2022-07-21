@@ -1269,7 +1269,8 @@ display: flex;
 width: 72px;
 height: 72px;
 bottom: 438px;
-left: 779px;
+left: 202px;
+margin: 0 auto;
 background: #FFFFFF;
 border: 0.1px solid #FFFFFF
 }
@@ -1703,7 +1704,7 @@ position: relative;
 display: flex;
 align-items:baseline; 
 height: 320px;
-top: 626px;
+top: 659px;
 opacity: 0.05;
 }
 
