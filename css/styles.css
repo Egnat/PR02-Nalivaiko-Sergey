@@ -1916,6 +1916,8 @@ body {width: 1300px; background: white; }
 
 @media screen and (max-width: 425px) {
 
+   body { background: black; }
+
 .header-content, .footer-content { height: 89px;} 
 
 .filter-room-one-big-photo { height: 705px; }
@@ -1924,6 +1926,8 @@ body {width: 1300px; background: white; }
 }
 
 @media screen and (max-width: 375px) {
+
+   body{ background: green; }
 
 .header-content, .footer-content { height: 87px;} 
 
