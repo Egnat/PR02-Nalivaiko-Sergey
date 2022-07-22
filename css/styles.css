@@ -1337,7 +1337,7 @@ position: absolute;
 width: 354px;
 height: 557px;
 bottom: 271px;
-left: 500px;
+left: 473px;
 }
 
 .room2-big-photo {
@@ -1363,14 +1363,14 @@ position: absolute;
 width: 354px;
 height: 268px;
 top: 549px;
-left: 500px;
+left: 473px;
 object-fit: fill;
 }
 
 .mini-group5 {
 position: absolute;
-top: 5233px;
-left: 402px;
+top: 5241px;
+left: 421px;
 }
 
 .h2our {
@@ -1429,7 +1429,7 @@ border-bottom: ;: 2px solid #E3B873;
 position: absolute;
 width: 366px;
 height: 57px;
-bottom: 11px;
+bottom: 6px;
 left: 55px;
 
 font-family: 'Nunito Sans';
@@ -1445,7 +1445,7 @@ color: #363636;
 position: absolute;
 display: flex;
 flex-direction: column;
-top: 5238px;
+top: 5267px;
 left: 27px;
 }
 
