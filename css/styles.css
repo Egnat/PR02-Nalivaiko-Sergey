@@ -1608,7 +1608,7 @@ color: #FFFFFF;
 position: absolute;
 display: flex;
 align-items:baseline; 
-top: 5810px;
+top: 5786px;
 opacity: 0.05;
 }
 
@@ -1631,7 +1631,7 @@ object-fit: fill;
 position: absolute;
 width: 675px;
 height: 336.32px;
-top: 5949px;
+top: 5928px;
 left: 310px;
 z-index: 1;
 background: black;
@@ -1911,5 +1911,5 @@ body {width: 1300px; background: white; }
 
 .room-big-photo { width: 1300px; }
 
-.black-square2 { height: 869.9px; }
+.black-square2 { height: 868.9px; }
 }
