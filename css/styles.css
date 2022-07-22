@@ -1913,3 +1913,17 @@ body {width: 1300px; background: white; }
 
 .black-square2 { height: 868.9px; }
 }
+
+@media screen and (max-width: 425px) {
+
+.header-content { height: 82px; }
+
+.black-square2 { height: 869.9px; }
+   
+}
+
+@media screen and (max-width: 375px) {
+
+.black-square2 { height: 869.9px; }
+ 
+}
