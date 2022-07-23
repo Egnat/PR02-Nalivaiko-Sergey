@@ -190,7 +190,7 @@ position: absolute;
 display: flex;
 flex-direction: column;
 top: 925px;
-left: 575px;
+left: 566px;
 }
 
 .menu-list {
@@ -359,7 +359,7 @@ position: absolute;
 display: flex;
 flex-direction: column;
 top: 1481px;
-left: 584px;
+left: 572px;
 }
 
 .online {
@@ -410,7 +410,7 @@ position: absolute;
 width: 740px;
 height: 389px;
 top: 1594px;
-left: 293px;
+left: 280px;
 margin-block-start: 0;
 margin-block-end: 0;
 margin-inline-start: 0;
@@ -460,7 +460,7 @@ position: absolute;
 width: 55px;
 height: 1.54px;
 top: 2050px;
-left: 635px;
+left: 625px;
 background: #E3B873;
 }
 
@@ -470,7 +470,7 @@ display: block;
 width: 681px;
 height: 130.91px;
 top: 2086px;
-left: 324px;
+left: 315px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -495,7 +495,7 @@ align-items: center;
 width: 200px;
 height: 51px;
 border: 1px solid #E3B873;
-left: 329px; 
+left: 318px; 
 background: #E3B873;
 box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
 
@@ -510,7 +510,7 @@ color: #FFFFFF;
 
 .fio {
 position: absolute;
-left: -272px;
+left: -254px;
 cursor: pointer;
 }
 
@@ -559,9 +559,10 @@ cursor: pointer;
 
 .first-checkbox {
 position: absolute;
+width: 300px;
 height: 24px;
 top: 2442px;
-left: 503px;
+left: 500px;
 }
 
 .label {
