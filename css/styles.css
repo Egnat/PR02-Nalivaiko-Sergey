@@ -775,7 +775,7 @@ color: #959595;
 }
 
 .photo-bottom-3 {
-display: inline-block;
+display: inline;
 position: absolute;
 height: 544px;
 top: 249px;
@@ -799,6 +799,7 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
 
 .designer {
+display: inline;
 position: absolute;
 width: 126.7px;
 height: 21px;
