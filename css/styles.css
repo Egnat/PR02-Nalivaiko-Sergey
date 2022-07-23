@@ -896,7 +896,7 @@ background: black;
 position: absolute;
 width: 268.47px;
 height: 47px;
-bottom: 384px;
+bottom: 389px;
 left: 119px;
 
 font-family: 'Nunito Sans';
@@ -910,8 +910,6 @@ color: #FFFFFF;
 
 .fio2 {
 position: absolute;
-width: 348.85px;
-height: 119px;
 top: 93px;
 left: 36px;
 cursor: pointer;
@@ -942,18 +940,14 @@ background: gba(255, 255, 255, 0.15);;
 
 .phone1 {
 position: absolute;
-width: 348.85px;
-height: 119px;
-top: 193px;
+top: 189px;
 left: 36px;
 cursor: pointer;   
 }
 
 .mail {
 position: absolute;
-width: 348.85px;
-height: 119px;
-bottom: 74px;
+bottom: 187px;
 left: 36px;
 cursor: pointer;   
 }   
