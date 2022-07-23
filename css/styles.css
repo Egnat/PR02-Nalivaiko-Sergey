@@ -530,6 +530,7 @@ font-size: 13px;
 
 .text-question-gr2 {
 position: absolute;
+width: 121px;
 top: 21px;
 border: none;
 outline: none;
@@ -954,6 +955,7 @@ cursor: pointer;
 
 .text-question1 {
 position: absolute;
+width: 121px;
 top: 17px;
 border: none;
 outline: none;
