@@ -483,7 +483,7 @@ color: #363636;
 
 .block2 {
 position: absolute;
-top: 2021px;
+top: 2033px;
 }
 
 .submit {
@@ -494,7 +494,7 @@ align-items: center;
 width: 200px;
 height: 51px;
 border: 1px solid #E3B873;
-top: 320px;
+top: 316px;
 left: 849px; 
 background: #E3B873;
 box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
@@ -540,14 +540,14 @@ font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-padding-top: 7px;
+padding-top: 0px;
 }
 
 .strip {
 position: absolute;
 width: 231px;
 height: 1px;
-top: 55px;
+top: 52px;
 box-sizing: border-box;
 border: 1px solid rgba(54, 54, 54, 0.3);
 background: #E3B873;
@@ -557,7 +557,7 @@ background: #E3B873;
 position:absolute;
 width: 348.85px;
 height: 119px;
-top: 314px;
+top: 316px;
 left: 558px;
 cursor: pointer;   
 }
