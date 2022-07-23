@@ -483,7 +483,8 @@ color: #363636;
 
 .block2 {
 position: absolute;
-top: 2033px;
+top: 2351px;
+left: 521px;
 }
 
 .submit {
@@ -494,8 +495,7 @@ align-items: center;
 width: 200px;
 height: 51px;
 border: 1px solid #E3B873;
-top: 316px;
-left: 849px; 
+left: 329px; 
 background: #E3B873;
 box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
 
@@ -510,8 +510,7 @@ color: #FFFFFF;
 
 .fio {
 position: absolute;
-top: 316px;
-left: 266px;
+left: -272px;
 cursor: pointer;
 }
 
@@ -554,8 +553,7 @@ background: #E3B873;
 
 .fio-1 {
 position:absolute;
-top: 316px;
-left: 558px;
+left: 29px;
 cursor: pointer;   
 }
 
