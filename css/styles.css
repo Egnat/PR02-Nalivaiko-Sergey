@@ -699,7 +699,7 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 position: absolute;
 width: 107px;
 height: 21px;
-top: 8px;
+top: 12px;
 left: 34px;
 
 font-family: 'Yeseva One';
@@ -750,7 +750,7 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 position: absolute;
 width: 71px;
 height: 21px;
-top: 8px;
+top: 12px;
 left: 31px;
 
 font-family: 'Yeseva One';
@@ -775,7 +775,7 @@ color: #959595;
 }
 
 .photo-bottom-3 {
-display: block;
+display: inline-block;
 position: absolute;
 height: 544px;
 top: 249px;
@@ -802,7 +802,7 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 position: absolute;
 width: 126.7px;
 height: 21px;
-top: 8px;
+top: 12px;
 left: 31px;
 
 font-family: 'Yeseva One';
