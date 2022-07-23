@@ -510,8 +510,6 @@ color: #FFFFFF;
 
 .fio {
 position: absolute;
-width: 348.85px;
-height: 119px;
 top: 316px;
 left: 266px;
 cursor: pointer;
@@ -555,8 +553,6 @@ background: #E3B873;
 
 .fio-1 {
 position:absolute;
-width: 348.85px;
-height: 119px;
 top: 316px;
 left: 558px;
 cursor: pointer;   
@@ -564,8 +560,6 @@ cursor: pointer;
 
 .first-checkbox {
 position: absolute;
-width: 300px;
-height: 40px;
 top: 2442px;
 left: 518px;
 }
