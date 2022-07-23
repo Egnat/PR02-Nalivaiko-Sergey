@@ -679,10 +679,9 @@ top: 249px;
 left: 155px;
 }
 
-.wall {
+.wall, .furniture, .furtiture-2  {
 width: 296px;
 height: 338px;
-left: 98px;
 }
 
 .group-5 {
@@ -695,21 +694,19 @@ background: #FFFFFF;
 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
 
-.redecorating {
+.redecorating, .overhaul, .designer  {
 position: absolute;
-width: 107px;
-height: 21px;
 top: 12px;
 left: 34px;
 
 font-family: 'Yeseva One';
 font-style: normal;
-font-weight: bolder;
+font-weight: bold;
 font-size: 18px;
 color: #363636;
 }
 
-.list1{
+.list1, .list-2, .list-3 {
 position: absolute;
 top: 42px;
 left: 11px;
@@ -730,11 +727,6 @@ top: 249px;
 left: 495px;  
 }
 
-.furniture {
-width: 296px;
-height: 338px;
-}
-
 .group-6 {
 position: absolute;
 width: 261px;
@@ -745,45 +737,12 @@ background: #FFFFFF;
 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);   
 }
 
-.overhaul {
-position: absolute;
-width: 71px;
-height: 21px;
-top: 12px;
-left: 31px;
-
-font-family: 'Yeseva One';
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-color: #363636;
-}
-
-.list-2 {
-position: absolute;
-top: 42px;
-left: 11px;
-
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 27px;
-color: #959595;   
-}
-
 .photo-bottom-3 {
 display: inline;
 position: absolute;
 height: 544px;
 top: 249px;
 left: 833px;    
-}
-
-.furtiture-2 {
-width: 296px;
-height: 338px;
-right: 52px;
 }
 
 .group-7 {
@@ -794,31 +753,6 @@ bottom: 54px;
 right: 17px;
 background: #FFFFFF;
 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-}
-
-.designer {
-position: absolute;
-top: 12px;
-left: 31px;
-
-font-family: 'Yeseva One';
-font-style: normal;
-font-weight: bolder;
-font-size: 18px;
-color: #363636;
-}
-
-.list-3 {
-position: absolute;
-top: 42px;
-left: 11px;
-
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 27px;
-color: #959595;      
 }
 
 .button-container {
@@ -1527,10 +1461,6 @@ position: absolute;
 right: 144px;
 }
 
-.vertical:hover {
-background: #2798f1;
-}
-
 .pot, .kjubik  {
 
 }
@@ -1874,7 +1804,7 @@ border: 2px solid #2798f1;
 
 .bucks:hover, .eyes:hover, .strip1:hover, .strip2:hover, .strip3:hover, 
 .vector1:hover, .vector2:hover, .point:hover, 
-.vector-1:hover, .vector-2:hover{
+.vector-1:hover, .vector-2:hover, .vertical:hover {
 background-color: #2798f1;
 }
 
