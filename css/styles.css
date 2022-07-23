@@ -181,19 +181,6 @@ color: white;
 color: #E3B873;
 }
 
-.span:hover, .mini-line:hover, .text-button_submit:hover, .text1:hover,
-.text:hover, .span-span:hover, .text-name1:hover, .numbers:hover,
-.text-question1:hover {
-border-bottom: 2px solid #2798f1;
-}
-
-#button1-container-text:hover, #button2-container-text:hover, .rub1:hover, 
-.rub2:hover, .rub3:hover, .button-header:hover, .submit:hover,
-.icon:hover, .icon1:hover, .line:hover, .border-2:hover, .button:hover, .line-big-photo:hover, 
-.button-bl-r:hover, .button-footer:hover, .but1:hover, .but2:hover, .but3:hover {
-border: 2px solid #2798f1;
-}
-
 .group-1 {
 height: 999px;
 top: 789px;
@@ -344,10 +331,6 @@ margin: 0 ;
 background: #FFFFFF;
 }
 
-.vector-1:hover, .vector-2:hover  {
-background: #2798f1;
-}
-
 .bracket-1 {
 position: absolute;
 display: inline;
@@ -371,10 +354,6 @@ justify-content: space-between;
 
 .point {
 border-radius: 30px; 
-}
-
-.point:hover {
-background: #2798f1;
 }
 
 .section-onl-vect {
@@ -1086,10 +1065,6 @@ border: 1px solid rgba(54, 54, 54, 0.3);
 background: gba(255, 255, 255, 0.15);;
 }
 
-.strip1:hover {
-background-color: #2798f1;
-}
-
 .phone1 {
 position: absolute;
 width: 348.85px;
@@ -1213,7 +1188,6 @@ height: 72px;
 top: 3886px;
 left: 761px;
 margin: 0 auto;
-background: #FFFFFF;
 border: 0.1px solid #FFFFFF
 }
 
@@ -1224,8 +1198,6 @@ width: 79px;
 height: 79px;
 left: -4px;
 top: 0px;
-background: white;
-box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
 }
 
 .piggy {
@@ -1234,11 +1206,6 @@ width: 40px;
 height: 33px;
 top: 14px;
 right: 15px;
-}
-
-.piggy:hover, .bucks:hover, .eyes:hover, 
-.vector1:hover, .vector2:hover {
-background: #2798f1;
 }
 
 .eyes {
@@ -1569,11 +1536,7 @@ right: 144px;
 background: #2798f1;
 }
 
-.pot {
-
-}
-
-.kjubik {
+.pot, .kjubik  {
 
 }
 
@@ -1704,10 +1667,6 @@ box-sizing: border-box;
 border: 1px solid rgba(54, 54, 54, 0.3);
 background: gba(255, 255, 255, 0.15);;
 }  
-
-.strip2:hover, .strip3:hover {
-background-color: #2798f1;
-}
 
 .phone2 {
 position: absolute;
@@ -1902,6 +1861,28 @@ background: #9e9e9e0d;
 #map {
 display: block;
 }
+
+.span:hover, .mini-line:hover, .text-button_submit:hover, .text1:hover,
+.text:hover, .span-span:hover, .text-name1:hover, .numbers:hover,
+.text-question1:hover {
+border-bottom: 2px solid #2798f1;
+}
+
+#button1-container-text:hover, #button2-container-text:hover, 
+.rub1:hover, .rub2:hover, .rub3:hover, .button-header:hover, 
+.submit:hover,.icon:hover, .icon1:hover, .line:hover, 
+.border-2:hover, .button:hover, .line-big-photo:hover, 
+.button-bl-r:hover, .button-footer:hover, 
+.but1:hover, .but2:hover, .but3:hover {
+border: 2px solid #2798f1;
+}
+
+.bucks:hover, .eyes:hover, .strip1:hover, .strip2:hover, .strip3:hover, 
+.vector1:hover, .vector2:hover, .point:hover, 
+.vector-1:hover, .vector-2:hover{
+background-color: #2798f1;
+}
+
 
 @media screen and (max-width: 1300px) {
 
