@@ -561,6 +561,8 @@ cursor: pointer;
 
 .first-checkbox {
 position: absolute;
+width: 300px;
+height: 40px;
 top: 2442px;
 left: 518px;
 }
