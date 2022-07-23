@@ -799,10 +799,7 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
 
 .designer {
-display: inline;
 position: absolute;
-width: 126.7px;
-height: 21px;
 top: 12px;
 left: 31px;
 
@@ -810,7 +807,7 @@ font-family: 'Yeseva One';
 font-style: normal;
 font-weight: bolder;
 font-size: 18px;
-line-height: 25px;
+line-height: 25p;
 color: #363636;
 }
 
