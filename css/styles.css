@@ -532,29 +532,15 @@ font-size: 13px;
 
 .text-question-gr2 {
 position: absolute;
-width: 137.36px;
-height: 17px;
 top: 21px;
+border: none;
+outline: none;
 
 font-family: "Nunito Sans", Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 padding-top: 7px;
-border: none;
-outline: none;
-}
-
-.text-question-gr2:hover::after {
- width: 100%;  
-}
-
-.text-question-gr2::after {
-position: absolute;
-content: "";
-display: block;
-height: 2px;
-background: #2798f1;
 }
 
 .strip {
@@ -565,10 +551,6 @@ top: 55px;
 box-sizing: border-box;
 border: 1px solid rgba(54, 54, 54, 0.3);
 background: #E3B873;
-}
-
-.strip:hover {
-background-color: #2798f1;
 }
 
 .fio-1 {
@@ -658,10 +640,6 @@ border: 1px solid #2798f1;
 
 .keyses {
 background-image: url("images/keyses.svg");
-}
-
-.keyses:hover {
-background: #2798f1;
 }
 
 .sections {
@@ -958,20 +936,6 @@ line-height: 21px;
 color: rgba(255, 255, 255, 0.5);
 }
 
-.text-question1 {
-position: absolute;
-width: 124px;
-height: 23px;
-top: 17px;
-
-font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 23px;
-color: #FFFFFF;
-}
-
 .strip1 {
 width: 328px;
 height: 1px;
@@ -1002,12 +966,10 @@ cursor: pointer;
 
 .text-question1 {
 position: absolute;
-width: 124px;
-height: 23px;
 top: 17px;
 border: none;
 outline: none;
-background: transparent;
+background: #0000;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -1750,8 +1712,8 @@ border: 2px solid #2798f1;
 }
 
 .bucks:hover, .eyes:hover, .strip1:hover, .strip2:hover, .strip3:hover, 
-.vector1:hover, .vector2:hover, .point:hover, 
-.vector-1:hover, .vector-2:hover, .vertical:hover {
+.vector1:hover, .vector2:hover, .point:hover, .keyses:hover ,
+.vector-1:hover, .vector-2:hover, .vertical:hover,.strip:hover {
 background-color: #2798f1;
 }
 
