@@ -821,7 +821,7 @@ background: white;
 position: absolute;
 isplay: flex;
 lex-direction: column;
-top: 3299px;
+top: 3319px;
 }
 
 .house {
@@ -830,7 +830,7 @@ margin: 0;
 
 .img-house {
 width: 568px;
-height: 592px;
+height: 581px;
 object-fit: fill;
 }
 
@@ -840,7 +840,7 @@ display: flex;
 flex-direction: column;
 width: 434px;
 height: 351px;
-top: 81px;
+top: 73px;
 left: 218px;
 margin: 0 ;
 }
