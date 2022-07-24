@@ -588,7 +588,7 @@ opacity: 1;
 .text {
 font-family: 'Nunito Sans';
 font-style: normal;
-font-weight: 400;
+font-weight: bolder;
 font-size: 15px;
 line-height: 163.68%;
 color: black;  
@@ -902,7 +902,7 @@ left: 116px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
-font-weight: 400;
+font-weight: bolder;
 font-size: 18px;
 line-height: 26px;
 text-align: center;
@@ -1207,9 +1207,9 @@ height: 26px;
 bottom: 103px;
 left: 106px;
 
-font-family: 'Yeseva One';
+font-family: 'Yeseva One', Arial, sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: bold;
 font-size: 20px;
 line-height: 28px;
 text-align: center;
@@ -1261,7 +1261,7 @@ left: 55px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
-font-weight: 400;
+font-weight: bolder;
 font-size: 18px;
 line-height: 29px;
 text-align: center;
@@ -1470,7 +1470,7 @@ left: 219px;
 
 font-family: 'Yeseva One';
 font-style: normal;
-font-weight: 400;
+font-weight: bolder;
 font-size: 20px;
 line-height: 28px;
 text-align: center;
