@@ -406,7 +406,7 @@ left: 42px;
 
 .repair {
 position: absolute;
-top: 1560px;
+top: 1588px;
 left: 276px;
 margin: 0 auto;
 }
@@ -417,7 +417,7 @@ filter: brightness(0.2);
 
 .photo {
 width: 740px;
-height: 449px;
+height: 389px;
 object-fit: contain;
 }
 
@@ -425,7 +425,7 @@ object-fit: contain;
 position: absolute;
 display: flex;
 justify-content: center;
-bottom: 181px;
+bottom: 152px;
 left: 327px;
 margin: 0 auto;
 }
