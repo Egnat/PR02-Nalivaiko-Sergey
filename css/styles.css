@@ -4,7 +4,7 @@ font-family:"Yeseva+One";
 }
 
  body {
-background: #E5E5E5;
+background: white;
 margin: 0 auto;
 box-sizing: border-box;
 } 
@@ -450,7 +450,7 @@ transform: rotate(0deg);
 }
 
 .group-2 {
-height: 1533px;
+height: 1558px;
 background: white;
 }
 
@@ -819,11 +819,9 @@ background: white;
 
 .section {
 position: absolute;
-display: flex;
-flex-direction: column;
-width: 617px;
-height: 558px;
-top: 3293px;
+isplay: flex;
+lex-direction: column;
+top: 3299px;
 }
 
 .house {
@@ -896,7 +894,7 @@ color: #363636;
 position: absolute;
 width: 495px;
 height: 479px;
-top: 3383px;
+top: 3391px;
 left: 740px;
 background: black;
 }
@@ -1435,7 +1433,7 @@ color: #FFFFFF;
 position: absolute;
 display: flex;
 align-items:baseline; 
-top: 5776px;
+top: 5799px;
 opacity: 0.05;
 }
 
@@ -1458,7 +1456,7 @@ object-fit: fill;
 position: absolute;
 width: 675px;
 height: 336.32px;
-top: 5916px;
+top: 5932px;
 left: 310px;
 z-index: 1;
 background: black;
@@ -1608,7 +1606,7 @@ color: white;
 }
 
 .black-square2 {
-height: 866.9px;
+height: 870.9px;
 background: black;
 }
 
@@ -1719,13 +1717,14 @@ background-color: #2798f1;
 
 html { width: 1300px;}
 
-body {width: 1300px; background: white; }
+body {width: 1300px;  }
 
-.header-content, .footer-content { height: 84px; }
+.header-content{ height: 84px; }
 
 .room-big-photo { width: 1300px; }
 
 .black-square2 { height: 871.9px; }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -1734,7 +1733,7 @@ body {width: 1300px; background: white; }
 
 .filter-room-one-big-photo { height: 706px; }
 
-.black-square2 { height: 869.9px; }
+.black-square2 { height: 866.9px; }
 
 }
 
@@ -1744,7 +1743,7 @@ body {width: 1300px; background: white; }
 
 .filter-room-one-big-photo { height: 705px; }
 
-.black-square2 { height: 868.9px; }
+.black-square2 { height: 869.9px; }
    
 }
 
@@ -1754,14 +1753,14 @@ body {width: 1300px; background: white; }
 
 .filter-room-one-big-photo { height: 705px; }
 
-.black-square2 { height: 867.9px; }
+.black-square2 { height: 866.9px; }
    
 }
 
 @media screen and (max-width: 375px) {
 
-.header-content, .footer-content { height: 81px; }
+.header-content { height: 81px; }
 
-.black-square2 { height: 868.9px; }
+.black-square2 { height: 866.9px; }
  
 }
