@@ -592,6 +592,15 @@ transition: .2s;
 opacity: 1;
 }
 
+.text {
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 163.68%;
+color: black;  
+}
+
 .types {
 position: absolute;
 width: 184px;
@@ -1004,7 +1013,7 @@ transition: .2s;
 opacity: 1;
 }
 
-.text1 {
+.text1   {
 font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
