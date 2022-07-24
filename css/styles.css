@@ -1125,16 +1125,16 @@ width: 100%;
 
 .text-big-photo {
 position: absolute;
-width: 411px;
 height: 349px;
 bottom: 333px;
-left: 76px;
+left: 51px;
 }
 
 .h2-big-photo {
 position: absolute;
 width: 326px;
 height: 66px;
+bottom: 270px;
 left: 36px;
 
 font-family: 'Yeseva One';
