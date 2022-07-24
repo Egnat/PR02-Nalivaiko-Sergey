@@ -90,8 +90,7 @@ filter: brightness(0.2);
 .room-one-big-photo {
 width: 100%; 
 height: 707px;
-object-fit: fill; 
-object-position: center; 
+object-fit: cover; 
 }
 
 .container-text {
@@ -1722,9 +1721,12 @@ html { width: 1300px;}
 
 body {width: 1300px; background: white; }
 
+.header-content { height: 84px; }
+
+
 .room-big-photo { width: 1300px; }
 
-.black-square2 { height: 868.9px; }
+.black-square2 { height: 871.9px; }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1733,17 +1735,17 @@ body {width: 1300px; background: white; }
 
 .filter-room-one-big-photo { height: 706px; }
 
-.black-square2 { height: 870.9px; }
+.black-square2 { height: 871.9px; }
 
 }
 
 @media screen and (max-width: 768px) {
 
-.header-content { height: 84px; }
+.header-content { height: 83px; }
 
 .filter-room-one-big-photo { height: 705px; }
 
-.black-square2 { height: 869.9px; }
+.black-square2 { height: 871.9px; }
    
 }
 
@@ -1759,8 +1761,8 @@ body {width: 1300px; background: white; }
 
 @media screen and (max-width: 375px) {
 
-.header-content { height: 84px; }
+.header-content { height: 83px; }
 
-.black-square2 { height: 871.9px; }
+.black-square2 { height: 870.9px; }
  
 }
