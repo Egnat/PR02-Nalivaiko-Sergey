@@ -188,7 +188,7 @@ background: black;
 position: absolute;
 display: flex;
 flex-direction: column;
-top: 925px;
+top: 943px;
 left: 566px;
 }
 
@@ -197,7 +197,7 @@ position: absolute;
 width: 695px;
 height:16.32px;
 right: -7px;
-bottom: 535px;
+bottom: 526px;
 }
 
 .list {
@@ -223,14 +223,14 @@ position: absolute;
 display: inline-block;
 width: 189px;
 height: 1px;
-bottom: 504px;
+bottom: 496px;
 color: #E3B873;
 background: #E3B873;
 }
 
 .room2 {
 width: 649px;
-height: 482px;
+height: 463px;
 object-fit: contain;
 object-position: center;
 }
@@ -406,24 +406,18 @@ left: 42px;
 
 .repair {
 position: absolute;
-width: 740px;
-height: 389px;
-top: 1594px;
-left: 280px;
-margin-block-start: 0;
-margin-block-end: 0;
-margin-inline-start: 0;
-margin-inline-end: 0;
-z-index: 1;
+top: 1560px;
+left: 276px;
+margin: 0 auto;
 }
 
 .filter-repair {
-filter: brightness(0.3);
+filter: brightness(0.2);
 }
 
 .photo {
 width: 740px;
-height: 389px;
+height: 449px;
 object-fit: contain;
 }
 
@@ -431,8 +425,8 @@ object-fit: contain;
 position: absolute;
 display: flex;
 justify-content: center;
-bottom: 137px;
-left: 323px;
+bottom: 181px;
+left: 327px;
 margin: 0 auto;
 }
 
@@ -892,10 +886,10 @@ color: #363636;
 
 .black-square {
 position: absolute;
-width: 495px;
+width: 476px;
 height: 479px;
 top: 3391px;
-left: 740px;
+left: 765px;
 background: black;
 }
 
@@ -904,7 +898,7 @@ position: absolute;
 width: 268.47px;
 height: 47px;
 bottom: 389px;
-left: 119px;
+left: 116px;
 
 font-family: 'Nunito Sans';
 font-style: normal;
@@ -1024,7 +1018,7 @@ position: absolute;
 width: 213px;
 height: 51px;
 bottom: 23px;
-left: 235px;
+left: 227px;
 padding-bottom: 4px;
 padding-left: 43px;
 border: 2px solid #E3B873;
@@ -1052,7 +1046,7 @@ display: flex;
 width: 72px;
 height: 72px;
 top: 3886px;
-left: 761px;
+left: 783px;
 margin: 0 auto;
 border: 0.1px solid #FFFFFF
 }
@@ -1433,7 +1427,7 @@ color: #FFFFFF;
 position: absolute;
 display: flex;
 align-items:baseline; 
-top: 5799px;
+top: 5800px;
 opacity: 0.05;
 }
 
@@ -1720,6 +1714,8 @@ html { width: 1300px;}
 body {width: 1300px; }
 
 .room { position: relative; height: 705px; bottom: 1px; }
+
+.container-text { top: 141px; }
 
 .room-big-photo { width: 1300px; }
 
