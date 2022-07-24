@@ -1717,46 +1717,12 @@ background-color: #2798f1;
 
 html { width: 1300px;}
 
-body {width: 1300px;  }
+body {width: 1300px; }
+
+.room { position: relative; height: 705px; bottom: 1px; }
 
 .room-big-photo { width: 1300px; }
 
-}
+.footer { position: relative; bottom: 1px;}
 
-@media screen and (max-width: 1024px) {
-
-.header-content { height: 84px; }
-
-.filter-room-one-big-photo { height: 706px; }
-
-.black-square2 { height: 866.9px; }
-
-}
-
-@media screen and (max-width: 768px) {
-
-.header-content { height: 82px; }
-
-.filter-room-one-big-photo { height: 705px; }
-
-.black-square2 { height: 869.9px; }
-   
-}
-
-@media screen and (max-width: 425px) {
-
-.header-content { height: 83px; }
-
-.filter-room-one-big-photo { height: 705px; }
-
-.black-square2 { height: 866.9px; }
-   
-}
-
-@media screen and (max-width: 375px) {
-
-.header-content { height: 81px; }
-
-.black-square2 { height: 869.9px; }
- 
 }
