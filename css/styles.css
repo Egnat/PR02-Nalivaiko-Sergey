@@ -817,6 +817,9 @@ object-fit: fill;
 
 .rectangle {
 position: absolute;
+display: flex;
+flex-direction: column;
+width: 434px;
 height: 351px;
 top: 73px;
 left: 218px;
