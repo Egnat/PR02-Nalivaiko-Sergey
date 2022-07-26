@@ -186,8 +186,6 @@ background: black;
 
 .mini-section {
 position: absolute;
-display: flex;
-flex-direction: column;
 top: 943px;
 left: 566px;
 }
@@ -355,8 +353,6 @@ border-radius: 30px;
 
 .section-onl-vect {
 position: absolute;
-display: flex;
-flex-direction: column;
 top: 1481px;
 left: 572px;
 }
@@ -378,9 +374,6 @@ color: #FFFFFF;
 
 .vectors2 {
 position: absolute;
-display: flex;
-justify-content: space-between;
-align-items: center;
 width: 127px;
 height: 30px;
 top: 57px;
@@ -418,13 +411,11 @@ filter: brightness(0.2);
 .photo {
 width: 740px;
 height: 389px;
-object-fit: contain;
 }
 
 .block-1 {
 position: absolute;
 display: flex;
-justify-content: center;
 bottom: 152px;
 left: 327px;
 margin: 0 auto;
@@ -482,9 +473,6 @@ left: 521px;
 
 .submit {
 position: absolute;
-display: flex;
-justify-content: center;
-align-items: center;
 width: 200px;
 height: 51px;
 border: 1px solid #E3B873;
@@ -733,7 +721,6 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 .button-container {
 position: absolute;
 display: flex;
-justify-content: space-between;
 align-items: center;
 width: 1285px;
 height: 56px;
@@ -830,9 +817,6 @@ object-fit: fill;
 
 .rectangle {
 position: absolute;
-display: flex;
-flex-direction: column;
-width: 434px;
 height: 351px;
 top: 73px;
 left: 218px;
@@ -1044,7 +1028,6 @@ color: white;
 position: absolute;
 display: flex;
 width: 72px;
-height: 72px;
 top: 3886px;
 left: 783px;
 margin: 0 auto;
@@ -1062,24 +1045,18 @@ top: 0px;
 
 .piggy {
 position: absolute;
-width: 40px;
-height: 33px;
 top: 14px;
 right: 15px;
 }
 
 .eyes {
 position: absolute;
-width: 5px;
-height: 2.5px;
 top: 24px;
 right: 22px;
 }
 
 .bucks {
 position: absolute;
-width: 8px;
-height: 11px;
 top: 25px;
 right: 34px;
 }
@@ -1220,7 +1197,6 @@ color: #181818;
 .group-hands {
 position: absolute;
 display: flex;
-justify-content: space-between;
 align-items: center;
 width: 34px;
 height: 28px;
@@ -1270,8 +1246,6 @@ color: #363636;
 
 .section-content {
 position: absolute;
-display: flex;
-flex-direction: column;
 top: 5267px;
 left: 27px;
 }
@@ -1674,8 +1648,6 @@ bottom: 9px;
 
 .insta {
 position: absolute;
-width: 28px;
-height: 28px;
 top: 58px;
 left: 297px;
 background: #9e9e9e0d;
@@ -1713,7 +1685,7 @@ html { width: 1300px;}
 
 body {width: 1300px; }
 
-.room { position: relative; height: 705px; bottom: 1px; }
+.room {  position: relative; height: 705px; bottom: 1px; } 
 
 .container-text { top: 144px; }
 
