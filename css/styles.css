@@ -1,9 +1,48 @@
+::-webkit-scrollbar {
+  width : 0.1px; 
+  height: 5px;
+  pacity: 0.02;
+} /* УБРАЛ ПОЛОСУ ПРОКРУТКИ С ЭКРАНА и сделал свою. 
+Когда пишу сайт, чтобы на планшете отображалось содержимое от края до края страницы 
+без зазоров, прокрутку можно отключить. И включить для красоты по готовности сайта.*/
+
+::-webkit-scrollbar-button {height: 50px; background :#42e10e; }  /*2 - кнопка*/  
+
+::-webkit-scrollbar-track {background: #274dd7; }  /*3 - трек */ 
+
+::-webkit-scrollbar-track-piece { background: #e91e63;}  /*4 - видимая часть трека */ 
+
+::-webkit-scrollbar-thumb {background: #fbe100; border-radius: 10px;
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); /*inset 1 3 13px rgb(207 10 10 / 64%)*/} /*5 - ползунок */ 
+
+/*настраивает полосу прокрутки с помощью вэбкит. С этими еще не разобрался*/
+
+/*::-webkit-scrollbar{ width: 22px; } /*1 - вертикальный скроллбар*/
+
+/*::-webkit-scrollbar:horizontal{ height: 22px;  }  /*1 - горизонтальный скроллбар*/
+
+/*::-webkit-scrollbar-button {background :#e50845; }  /*2 - кнопка*/  
+
+/*::-webkit-scrollbar-track {background: #008000; }  /*3 - трек */ 
+
+/*::-webkit-scrollbar-track-piece { background: #32CD32;}  /*4 - видимая часть трека */ 
+
+/*::-webkit-scrollbar-thumb {background: #322e76; border-radius: 10px;
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); } /*5 - ползунок */ 
+
+/*::-webkit-scrollbar-corner {: #32CD32; }  6 - уголок */
+
+/*::-webkit-resizer { : #32CD32; } 7 - изменение размеров*/ 
+
 @font-face {
 src: url("fonts/Yeseva+One.ttf");
 font-family:"Yeseva+One";
 }
 
+html {width: 1280px;}
+
  body {
+width: 1280px;  
 background: white;
 margin: 0 auto;
 box-sizing: border-box;
@@ -69,7 +108,8 @@ padding-right: 30px;
 }
 
 .menu, .menu1 {
-display: flex;color: white;
+display: flex;
+color: white;
 
 font-size: 13px;
 list-style-type: none;
@@ -729,7 +769,7 @@ box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 position: absolute;
 display: flex;
 align-items: center;
-width: 1285px;
+width: 1280px;
 height: 56px;
 top: 709px;
 }
@@ -883,7 +923,7 @@ position: absolute;
 width: 476px;
 height: 479px;
 top: 3391px;
-left: 765px;
+left: 804px;/*765px*/
 background: black;
 }
 
@@ -1039,7 +1079,7 @@ position: absolute;
 display: flex;
 width: 72px;
 top: 3886px;
-left: 783px;
+left: 817px/*783px*/;
 margin: 0 auto;
 border: 0.1px solid #FFFFFF
 }
@@ -1411,6 +1451,7 @@ color: #FFFFFF;
 position: absolute;
 display: flex;
 align-items:baseline; 
+width: 1280px;
 top: 5800px;
 opacity: 0.05;
 }
@@ -1667,10 +1708,15 @@ background: #9e9e9e0d;
 display: block;
 }
 
+.city-span {
+color: #E3B873;   
+}
+
 .span:hover, .mini-line:hover, .text-button_submit:hover, .text1:hover,
 .text:hover, .span-span:hover, .text-name1:hover, .numbers:hover,
 .text-question1:hover, .text-question-gr2:hover, .link:hover, 
-.text-button-header:hover, .text-button-footer:hover, .link1:hover {
+.text-button-header:hover, .text-button-footer:hover, 
+.link1:hover, .city-span:hover {
 border-bottom: 2px solid #2798f1;
 }
 
@@ -1692,15 +1738,15 @@ background-color: #2798f1;
 
 @media screen and (max-width: 1300px) {
 
-html { width: 1300px;}
+html { width: 1280px;}
 
-body {width: 1300px; }
+body {width: 1280px; }
 
 .room {  position: relative; height: 705px; bottom: 1px; } 
 
 .container-text { top: 144px; }
 
-.room-big-photo { width: 1300px; }
+.room-big-photo { width: 1280px; }
 
 .footer { position: relative; bottom: 1px;}
 
